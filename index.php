@@ -7,7 +7,7 @@
 <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <script src="https://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
 <![endif]-->
-<title>サンプルサイト</title>
+<title><?php bloginfo('name'); ?></title>
 </head>
 <body class="home">
     <header class="globalHeader">
