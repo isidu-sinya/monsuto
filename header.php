@@ -22,7 +22,9 @@
         </div>
     </header><!-- /.globalHeader -->
 
+    <?php if ( is_home() ): ?>
     <div class="homeVisual"><span>石垣島でのんびりゆったりと。</span></div>
+  <?php endif; ?>
 
     <nav class="globalNavi">
         <ul>
