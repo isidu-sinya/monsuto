@@ -26,7 +26,7 @@
                             <time datetime="<?php the_time('Y-m-d'); ?>"><?php the_time('Y年m月d日(l)'); ?></time>
                         </div>
                         <h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
-                        <?php the_experpt(); ?>
+                        <?php the_excerpt(); ?>
                         <p>[<a href="<?php the_permalink(); ?>">続きを読む</a>]</p>
                     </div>
                     <figure>
