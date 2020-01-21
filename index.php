@@ -17,13 +17,11 @@
                 <?php
                 if ( have_posts() ):
                      while (have_posts() ): the_post(); ?>
-                <article class="news">
+                <article id="post-<?php the_ID(); ?>" <?php post_class('news'); ?>>
                     <div class="text">
                         <div class="entryInfo">
                             <div class="categories">
-                                <ul>
-                                    <li><a href="#">お知らせ</a></li>
-                                </ul>
+                            <?php the_category(); ?>
                             </div>
                             <time datetime="2015-03-22">2015.03.22(sun)</time>
                         </div>
