@@ -8,6 +8,7 @@
 <script src="https://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
 <![endif]-->
 <title><?php bloginfo('name'); ?></title>
+<?php wp_enqueue_script('jquery'); wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
     <header class="globalHeader">
