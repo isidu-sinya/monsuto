@@ -4,7 +4,7 @@
         <div class="mainContents">
           <?php
           if (have_posts() ) :
-              while (have_posts() ) : the_post();
+              while ( have_posts() ) : the_post();
               ?>
             <article id="post-<?php the_ID(); ?>" <?php post_class('entry'); ?>>
                 <h1 class="type-A">新着情報</h1>
