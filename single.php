@@ -3,7 +3,7 @@
     <div class="contentsWrap">
         <div class="mainContents">
           <?php
-          if (have_posts() ) :
+          if ( have_posts() ) :
               while ( have_posts() ) : the_post();
               ?>
             <article id="post-<?php the_ID(); ?>" <?php post_class('entry'); ?>>
