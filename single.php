@@ -34,15 +34,7 @@
 
         <aside class="subContents">
             <div class="wrapper">
-              <?php get_sidebar('categorie'); ?>
-                <section class="recentCategories">
-                    <h1 class="type-C">カテゴリー一覧</h1>
-                    <ul class="categories">
-                        <li><a href="category.html">お知らせ</a>(10)</li>
-                        <li><a href="category.html">コラム</a>(5)</li>
-                    </ul>
-                </section><!-- /.recentCategories -->
-
+              <?php get_sidebar('categories'); ?>
                 <section class="recentArchives">
                     <h1 class="type-C">月別アーカイブ</h1>
                     <ul class="archives">
