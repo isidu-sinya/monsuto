@@ -33,15 +33,10 @@
         </div><!-- /.mainContents -->
 
         <aside class="subContents">
+            <?php get_sidebar('categories'); ?>
+            <?php get_sidebar('archives'); ?>
             <div class="wrapper">
-              <?php get_sidebar('categories'); ?>
-                <section class="recentArchives">
-                    <h1 class="type-C">月別アーカイブ</h1>
-                    <ul class="archives">
-                        <li><a href="date.html">2015年2月</a>(2)</li>
-                        <li><a href="date.html">2015年1月</a>(1)</li>
-                    </ul><!-- /.archives -->
-                </section><!-- /.recentArchives -->
+
             </div><!-- /.wrapper -->
         </aside><!-- /.subContents -->
     </div><!-- /.contentsWrap -->
