@@ -12,7 +12,7 @@
             </div><!-- /.aboutBlock -->
 
             <section class="newsBlock block">
-                <h1 class="type-B"><span>ちんこ</span></h1>
+                <h1 class="type-B"><span>うんこ</span></h1>
 
                 <?php
                 if ( have_posts() ):
