@@ -38,7 +38,6 @@
       <?php
       // パンくずリストを表示
       if ( function_exists( 'bcn_display' ) ) {
-
       }
       ?>
     </div>
