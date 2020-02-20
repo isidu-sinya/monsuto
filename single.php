@@ -33,9 +33,9 @@
         </div><!-- /.mainContents -->
 
         <aside class="subContents">
-            <?php get_sidebar('categories'); ?>
-            <?php get_sidebar('archives'); ?>
             <div class="wrapper">
+              <?php get_sidebar('categories'); ?>
+              <?php get_sidebar('archives'); ?>
 
             </div><!-- /.wrapper -->
         </aside><!-- /.subContents -->
