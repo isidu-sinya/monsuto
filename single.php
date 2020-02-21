@@ -35,7 +35,7 @@
         <aside class="subContents">
             <div class="wrapper">
               <?php get_sidebar('categories'); ?>
-              <?php get_sidebar('archives'); ?>
+              <?php get_sidebar('archives'); ?> 
 
             </div><!-- /.wrapper -->
         </aside><!-- /.subContents -->
