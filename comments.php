@@ -1,6 +1,10 @@
 <section class="comments">
 <?php
-comment_form();
+$comment_form_args = array(
+     'title_replay' => 'コメント投稿フォーム',
+     'comment_notes_after' => '',
+   );
+comment_form( $comment_form_args );
 if ( have_comments() ) :
 ?>
     <p><?php comments_number(); ?></p>
