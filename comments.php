@@ -15,9 +15,13 @@ if ( have_comments() ) :
         );
         wp_list_comments( $wp_list_comments_args );
         ?>
+        $paginate_comments_link_args = array (
+            'prev_text' => '←前のコメントページ',
+            'next_text' => '→次のコメントページ',
+        );
     </ol>
 <?php
-paginate_comments_links();
+paginate_comments_links( $paginate_comments_link_args );
 endif;
 ?>
 </section><!-- /.comments -->
