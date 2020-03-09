@@ -18,7 +18,7 @@ if ( have_comments() ) :
 
     </ol>
 <?php
-$paginate_comments_links_args = array (
+$paginate_comments_links_args = array(
     'prev_text' => '←前のコメントページ',
     'next_text' => '→次のコメントページ',
 );
