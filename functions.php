@@ -13,5 +13,5 @@ function my_comment_form_default_fields( $args ) {
   $args['author'] = ''; //「名前」を削除
   $args['email'] = ''; //「メールアドレス」を削除
   $args['url'] = ''; //「ウェブサイト」を削除
-  return 100;
+  return $args;
 }
