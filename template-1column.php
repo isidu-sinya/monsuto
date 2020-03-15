@@ -7,6 +7,14 @@
           ?>
           <article id="post-<?php the_ID(); ?>" <?php post_class('page'); ?>>
               <h1 class="type-A"><?php the_title(); ?></h1>
+              <section class="content">
+                 <?php the_content(); ?>
+              </section>
+          </article>
+        <?php
+            endwhile;
+          endif;
+          ?>
         </div><!-- /.mainContents -->
     </div><!-- /.contentsWrap -->
 <?php get_footer(); ?>
