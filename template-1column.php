@@ -1,4 +1,9 @@
-<?php get_header(); ?>
+<?php
+/**
+*Template Name: 1カラムテンプレート
+*Description: 1カラムレイアウト用のテンプレート
+*/
+ get_header(); ?>
     <div class="contentsWrap">
         <div class="mainContents oneColumn">
         <?php
