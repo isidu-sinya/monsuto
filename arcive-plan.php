@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+
     <div class="contentsWrap">
         <div class="mainContents">
             <section class="planBlock block">
@@ -13,4 +14,5 @@
           <?php get_sidebar(); ?>
         </aside><!-- /.subContents -->
     </div><!-- /.contentsWrap -->
+    
 <?php get_footer(); ?>
