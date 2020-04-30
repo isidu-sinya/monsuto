@@ -15,4 +15,4 @@
         </aside><!-- /.subContents -->
     </div><!-- /.contentsWrap -->
 
-<?php get_footer();?>
+<?php get_footer(); ?>
