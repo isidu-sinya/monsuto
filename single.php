@@ -7,7 +7,7 @@
               while ( have_posts() ) : the_post();
               ?>
             <article id="post-<?php the_ID(); ?>" <?php post_class('entry'); ?>>
-                <h1 class="type-A">新着情報</h1>
+                <h1 class="type-A">俺の情報</h1>
                 <h2 class="title type-B"><span><?php the_title(); ?></span></h2>
 
                 <div class="entryInfo">
